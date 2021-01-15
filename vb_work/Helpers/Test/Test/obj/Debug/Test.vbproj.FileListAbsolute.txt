@@ -1,0 +1,21 @@
+C:\Users\Lukas\source\repos\Test\Test\bin\Debug\Test.exe
+C:\Users\Lukas\source\repos\Test\Test\bin\Debug\Test.pdb
+C:\Users\Lukas\source\repos\Test\Test\bin\Debug\Test.xml
+C:\Users\Lukas\source\repos\Test\Test\obj\Debug\Test.vbprojAssemblyReference.cache
+C:\Users\Lukas\source\repos\Test\Test\obj\Debug\Test.Form1.resources
+C:\Users\Lukas\source\repos\Test\Test\obj\Debug\Test.Resources.resources
+C:\Users\Lukas\source\repos\Test\Test\obj\Debug\Test.vbproj.GenerateResource.cache
+C:\Users\Lukas\source\repos\Test\Test\obj\Debug\Test.exe
+C:\Users\Lukas\source\repos\Test\Test\obj\Debug\Test.xml
+C:\Users\Lukas\source\repos\Test\Test\obj\Debug\Test.pdb
+E:\Lukas\OneDrive\LukXi DSB\Lukxi DSB 2.1\vb_work\Helpers\Test\Test\bin\Debug\Test.exe
+E:\Lukas\OneDrive\LukXi DSB\Lukxi DSB 2.1\vb_work\Helpers\Test\Test\bin\Debug\Test.pdb
+E:\Lukas\OneDrive\LukXi DSB\Lukxi DSB 2.1\vb_work\Helpers\Test\Test\bin\Debug\Test.xml
+E:\Lukas\OneDrive\LukXi DSB\Lukxi DSB 2.1\vb_work\Helpers\Test\Test\obj\Debug\Test.vbprojAssemblyReference.cache
+E:\Lukas\OneDrive\LukXi DSB\Lukxi DSB 2.1\vb_work\Helpers\Test\Test\obj\Debug\Test.Form1.resources
+E:\Lukas\OneDrive\LukXi DSB\Lukxi DSB 2.1\vb_work\Helpers\Test\Test\obj\Debug\Test.Resources.resources
+E:\Lukas\OneDrive\LukXi DSB\Lukxi DSB 2.1\vb_work\Helpers\Test\Test\obj\Debug\Test.vbproj.GenerateResource.cache
+E:\Lukas\OneDrive\LukXi DSB\Lukxi DSB 2.1\vb_work\Helpers\Test\Test\obj\Debug\Test.exe
+E:\Lukas\OneDrive\LukXi DSB\Lukxi DSB 2.1\vb_work\Helpers\Test\Test\obj\Debug\Test.xml
+E:\Lukas\OneDrive\LukXi DSB\Lukxi DSB 2.1\vb_work\Helpers\Test\Test\obj\Debug\Test.pdb
+E:\Lukas\OneDrive\LukXi DSB\Lukxi DSB 2.1\vb_work\Helpers\Test\Test\obj\Debug\Test.vbproj.CoreCompileInputs.cache

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LukXi DSB Editor.exe" version="2.1.0.1" publicKeyToken="da013ed39eb5be4f" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="lukxi_dsb_icon_256_kSg_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LukXi DSB Editor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LukXi DSB Editor.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Zugangsebene für das Windows-Benutzerkonto ändern möchten, ersetzen Sie den 
+          requestedExecutionLevel-Knoten durch eines der folgenden Elemente.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Löschen Sie den requestedExecutionLevel-Knoten, wenn Sie 
+         zum Gewährleisten der Abwärtskompatibilität die Datei- und Registrierungsvirtualisierung verwenden möchten.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LukXi DSB Editor.exe" size="159680">
+      <assemblyIdentity name="LukXi DSB Editor" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>qYUJIIT1AFxG4aIpUvNPCjrp7g4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="lukxi_dsb_icon_256_kSg_icon.ico" size="20354">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9Wj9kKORdAuhrnWWnDma0jSOQXI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-H31B81T\Lukas" issuerKeyHash="b0925bb965224bb2f32de858ba93344566abb59d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>pam2voUnTok4i3/tbhtNX3xUcqo=</DigestValue></Reference></SignedInfo><SignatureValue>UJpksEHX2YRpw0FWThnmVAhbaHNbfj1zwgj+hL7zjhR6E5Jxw4LUpHvGDGGQSJPxZcmhgbPwbJJQwjRm2USMQ3n/k6ckDdU4silefOP5vWNotcOo+ZttLaxz+JOe65s+gMoYhgPJUZVtE+FH2/f+CbjuJnxqfh5j+PKXKfhrgbw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wA0O7cpdGwZYCUkh81XP3atDFvllMl2ZY88rCmM7x3/kKvTITOVxdgqk2wVDxnX1A4eQqn6AB3Jed8KqbX6rr7e2uCaRnxuw084ROJEdHuC8wvUwquAWrrym0qwy0Yz77O1y4NwrdSVfA6bFXS+HYTrg0i+0C7zjpoAVtdG2sKU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aa72547c5f4d1b6eed7f8b38894e2785beb6a9a5" Description="" Url=""><as:assemblyIdentity name="LukXi DSB Editor.exe" version="2.1.0.1" publicKeyToken="da013ed39eb5be4f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-H31B81T\Lukas</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>GUDvF/03fcf+PCebjBgxMgc/y5I=</DigestValue></Reference></SignedInfo><SignatureValue>BOzXLDsQo88W4Mf9vWq9WMxxD4pgC+wkl2CzhsaheeHDsBpR2/E+ahF03RcDQhf2s8DTq6KtyjX6K0vAzikCVf7q1tqiza7PwGiSMGeB6rTuy78yf9fPu7gTNuNW0xpiDj1aVh5wUaX0fPpL4Dz+EpL09fAw+xs1QFnozY9pttA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wA0O7cpdGwZYCUkh81XP3atDFvllMl2ZY88rCmM7x3/kKvTITOVxdgqk2wVDxnX1A4eQqn6AB3Jed8KqbX6rr7e2uCaRnxuw084ROJEdHuC8wvUwquAWrrym0qwy0Yz77O1y4NwrdSVfA6bFXS+HYTrg0i+0C7zjpoAVtdG2sKU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQdZPp01hFs6tLdJT4lBfiYDANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEgAMwAxAEIAOAAxAFQAXABMAHUAawBhAHMwHhcNMjAwNTA0MTA0NjI4WhcNMjEwNTA0MTY0NjI4WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEgAMwAxAEIAOAAxAFQAXABMAHUAawBhAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMANDu3KXRsGWAlJIfNVz92rQxb5ZTJdmWPPKwpjO8d/5Cr0yEzlcXYKpNsFQ8Z19QOHkKp+gAdyXnfCqm1+q6+3trgmkZ8bsNPOETiRHR7gvML1MKrgFq68ptKsMtGM++ztcuDcK3UlXwOmxV0vh2E64NIvtAu846aAFbXRtrClAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAlEwR19rPDSYUkn8b8fh54oh2JoySdgtOlPB9EzQlS8vDUUwTWN4Xzjhmn+Bo0P6yP3PRqyM1oJjdyov4bjlsUJjeO7IF29aw1re/Ilnw2ija1Uyf053emPfArkl2HOP1chf1JQxcAgdPqMslUlPpLvjeofw68kc/jHnQcOplEbQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
